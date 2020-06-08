@@ -1,42 +1,42 @@
-require 'pry'
+# require 'pry'
 
-class Song
+# class Song
   
-  @@count = 0 
-  @@artists = []
-  @@genres = []
+#   @@count = 0 
+#   @@artists = []
+#   @@genres = []
   
   
-  def initialize (name, artist, genre)
-    @name = name
-    @artist = artist 
-    @genre = genre 
-    @@count += 1 
-    @@artists << @artist 
-    @@genres << genre 
-  end 
+#   def initialize (name, artist, genre)
+#     @name = name
+#     @artist = artist 
+#     @genre = genre 
+#     @@count += 1 
+#     @@artists << @artist 
+#     @@genres << genre 
+#   end 
   
-  def name
-    @name 
-  end
+#   def name
+#     @name 
+#   end
   
-  def artist= (artist) 
-    @artist = artist
-  end 
+#   def artist= (artist) 
+#     @artist = artist
+#   end 
   
-  def artist 
-    @artist
-  end 
+#   def artist 
+#     @artist
+#   end 
   
-  def genre
-    @genre 
-  end 
+#   def genre
+#     @genre 
+#   end 
   
   
     
   
   
-end 
+# end 
 
 
 
